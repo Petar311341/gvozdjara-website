@@ -618,21 +618,21 @@ body.nav-locked{overflow:hidden;}
 
 .why-item{
   display:flex;
-  gap:16px;
-  padding:22px 0;
+  gap:20px;
+  padding:28px 0;
   border-top:1px solid var(--line);
 }
-.why-item:first-child{border-top:0;padding-top:0;}
+.why-item:first-child{border-top:0;padding-top:8px;}
 .why-num{
   font-family:var(--font-mono);
-  font-size:.8rem;
+  font-size:.92rem;
   color:var(--accent-dark);
-  padding-top:4px;
+  padding-top:6px;
   flex:none;
-  width:34px;
+  width:38px;
 }
-.why-item h3{font-size:1.12rem;margin-bottom:6px;}
-.why-item p{color:var(--steel-dark);font-size:.95rem;}
+.why-item h3{font-size:1.32rem;margin-bottom:10px;}
+.why-item p{color:var(--steel-dark);font-size:1.05rem;line-height:1.55;}
 
 /* =========================================================
    BRANDS ROW
@@ -684,12 +684,21 @@ body.nav-locked{overflow:hidden;}
   overflow:hidden;
 }
 @media(min-width:760px){ .service-list{grid-template-columns:repeat(2,1fr);} }
+.service-list-three{
+  max-width:1100px;
+  margin-left:auto;
+  margin-right:auto;
+}
+@media(min-width:760px){
+  .service-list-three{grid-template-columns:repeat(3,1fr);}
+}
 .service-item{
   background:var(--paper);
-  padding:28px;
+  padding:32px 28px 30px;
   display:flex;
   flex-direction:column;
-  gap:10px;
+  gap:12px;
+  min-height:180px;
   transition:background-color .2s var(--ease-out);
 }
 .service-item:hover{background:var(--paper-dim);}
