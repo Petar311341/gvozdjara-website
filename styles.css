@@ -896,7 +896,7 @@ body.nav-locked{overflow:hidden;}
 }
 .breadcrumb a{color:var(--paper-dimmer);}
 .breadcrumb a:hover{color:var(--accent);}
-.page-hero h1{max-width:16ch;}
+.page-hero h1{max-width:16ch;color:var(--paper);}
 .page-hero .hero-sub{margin-top:16px;max-width:56ch;color:var(--paper-dimmer);font-size:1.08rem;}
 
 /* =========================================================
